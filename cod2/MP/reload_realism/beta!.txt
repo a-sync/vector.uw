@@ -1,0 +1,90 @@
+Reload Realism Mod v0.4a
+by: Vector Akashi
+---------------------------
+Realism mod for multiplayer.
+===========================
+
+-You can only reload by double hiting your Use key (F for default) (by Snipers, Shotgun, Enfield and M1Garand you will get only a report about the number of bullets, or clips left), and so by reloading you will drop the bullets you left in your ammo clip
+-By reloading, the number of remaining ammo clips or bullets will be reported
+-You cant drop your current clip if you have no ammo left
+-No ammo counter
+-No weapon infos
+-No stance displayer
+-No crosshairs
+-No death icons
+-No friend icons
+-No grenade indicators
+-No health regeneration
+-No killcam
+-No death icons befor the names on scoreboard
+-No team, or player score on HUD
+-No objective indicators on the HUD (big 'A' or 'B' or flag...)
+-No text writed by Quickmessages (only sound)
+-No obituary message, or anything if someone was killed
+-No mantle hints (climbover indicators)
+-Realistic blood
+-Only objectives showed on compass
+-Shellshock realised
+-Slower move speed
+-Reduced melee damage
+-Damage levels of weapons increased (shotgun damage radius and damage reduced)
+-30 clip Thompson
+-Cookable grenades
+-Grenades throw lenght reduced
+-66% chance for dead players to drop ammo or grenades or both
+-The ammo dropped by dead soldiers is only the ammo from their weapon clips
+-Weapon drop by hiting hands, and 66% chance by hiting Gun
+-MG42 and 30Cal droped if the player is damaged
+-New grenade explosion effect
+-Dust and Fog removed from maps (+20-30 FPS for players)
+-Added Anti Exploit Fix
+-Supported Gametypes: DM,TDM,_SD_,CTF,HQ
+
+Search and Destroy
+ -Bomb timer will be showed only for the attacking team
+ -Only the bomb planter say's the "Bomb planted!" sound, and only in his local area
+ -The compass will show always the two possible objective points ('A' and 'B')
+ -Bomb planting and defusing time is based on the health of the player; from 5 to 15 sec (lower health = more shaking hands :D)
+ -Only one bomb is added
+ -One randomly selected player is the bomb carrier in every round (bomb will be dropped if the player is killed/disconnected/etc.)
+ -Bomb can be picked up by team mates
+ -No marking on the compass for the planted bomb
+ -No sound by bomb planting or defusing
+ -No ticking sound if bomb is planted
+ -No bomb plant or defuse text on HUD in bomb area (only hand icon)
+ -No bomb planted or defused print text for players
+ -No glowing bomb model
+ -New bomb explosion effect
+ -Bomb explosion sound added
+
+Copyright 2006 by Vector Akashi - I Know My Rights...
+Info, bug report, any idea and support to: info@cod2-cfg.tk
+www.cod2-cfg.tk
+
+---------------------------
+This file is still under
+developement, so please dont
+use it if you cant handle it!
+
+v0.4 alpha
+-some optional variables added
+-code bugs fixed
+-some realism additions
+!reload system still in the main script file
+!reload system still uses printmessages (changing to a self refresher/scanner hud element(text))
+!the bomb wont fall down
+!client crash/black screen bug ?maybe? fixed
+!only SD is fully supported
+!scripts are still CoD2 v1.01 based
+!not tested with cvar settings
+__________
+Dont copy!
+
+This project will be separeted...
+The realism part will be renamed to Advenced Search & Destroy (ASD) and will only support SD.
+The reloading system will have the reload realism, and it will be used as a stand alone mod.
+(There will be versions to support other mods like ASD, PAM, AWE etc.)
+
+This alpha is the last developement of the reload realism for CoD2 v1.01.
+The code will be implented into the CoD2 v1.3 gametype scripts separeted and optimised.
+Full rebuiding of the mod will take time, so pls be patient................................

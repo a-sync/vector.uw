@@ -1,0 +1,38 @@
+Shot Details Mod v3 beta4.1
+by: Vector Akashi
+===========================
+
+This mod will allow to tell the killer and the killed the Shot Details: distance between them in meters, and the hit location.
+
+//cvars
+sdm_allow "1"
+sdm_metric "meter" (meter, feet)
+
+Copyright 2006 by Vector Akashi - I Know My Rights...
+Info, bug report, any idea and support to: info@cod2-cfg.tk
+www.cod2-cfg.tk
+
+---------------------------
+This file is still under
+developement, so please dont
+use it if you cant handle it!
+
+beta1
+-code optimised
+-added support for meter, and feet (grabbed the idea from Moffia's Super Headshot Mod)
+-client crash/black screen bug fixed
+-some optional variables added
+!only TDM supported
+
+beta4
+sdm_oboff "0" //0=obituary on; 1=obituary off
+sdm_obicon "0" //0=obituary icons default; 1=show the crosshair (headshot) icon always except for melee kills (then the bash icon); 2=show the weapon icon always except for melee kills (then the bash icon); 3=show always only the crosshair (headshot) icon
+sdm_attacker "0" //0=no shot details sent to the attacker; 1=shot details in the left corner; 2=shot details in bold
+sdm_victim "0" //0=no shot details sent to the victim; 1=shot details in the left corner; 2=shot details in bold
+sdm_showall "1" //1=shot details sent to all in the left corner; 2=shot details sent to all in bold
+sdm_metric "feet" //meter=distance is calculated in meter; feet=distance is calculated in feet
+sdm_allow "1" //1=allow the Shot Details Mod
+sdm_debug "0" //0=debug messages off; 1=debug messages on
+-!only TDM supported
+__________
+Dont copy!

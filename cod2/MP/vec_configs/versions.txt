@@ -1,0 +1,102 @@
+// Vector Akashi's CoD2 Config's //
+//////////////////////////////////
+//versions history//
+///////////////////
+
+Vec! Config's Main Script (vec.cfg)
+1.13
+ -changed snaps setting to 30
+ -binded ChangeWeapon screen to F11
+ -crosshair toggler rebinded
+ -ammo display time changer rebinded
+ -added compass display time changer
+ -added healthbar display time changer
+ -added grenade display time changer
+ -added stance display time changer
+ -added All Hud Objects Display Time
+  to Fix changer button
+ -added changing name animator
+ -added 'reload say' on/off toggler
+ -added 'say' line position changer
+ -added chat position changer
+ -added chat display time changer
+ -added chat line height changer
+ -added allocated memory changer
+ -added MaxPackets/sec changer
+ -added PacketDuplication toggler
+ -added r_anisotropy 4 setting
+ -added r_multigpu 1 setting
+ -added hud_deathquotefadetime 500 setting
+ -added hud toggler
+ -added say_team commands to work
+  in place of echo(not enabled in cod2)
+
+1.13b, b2 (not public)
+ beta1
+ -added chat display time changer
+ -added chat line height changer
+ -added hud toggler
+ beta2
+ -added changing name animator
+ -added 'reload say' on/off toggler
+ -added 'say' line position changer
+ -added chat position changer
+
+1.13a (not public)
+ -added hud_deathquotefadetime 500 setting
+ -binded ChangeWeapon screen to F11
+ -crosshair toggler rebinded
+ -ammo display time changer rebinded
+  -more detailed
+ -added grenade display time changer
+ -added stance display time changer
+ -added say_team commands to work
+  in place of echo (not enabled in cod2)
+
+1.12
+ -added crosshair toggler
+ -quick Quit - demo recorder bug fixed
+  ("stucked" dvar)
+ -Change Team screen quick key
+ -ammo display time changer
+  (fix, 1 sec, 30 sec)
+ -more detailed volume changer
+ 
+1.11 (not public)
+ -demo recorder script bug fixed
+  ("stucked" dvar)
+ -more detailed volume changer
+  (0,2,4,6,8,10,15,20...90,95,100)
+
+1.10 -all speech binds at vec_speech.cfg -simple lag-O-meter toggler -volume changer (higher/lower) -mute toggler -no crash in demo recorder -no need to modify vec.cfg
+1.09 (not public) -mute and volume usage bug fixed  -mute and volume changer binded (*,+,-)
+1.09b (not public) -demo dvars renamed
+1.08 (not public) -mute toggler
+1.07 (not public) -volume changer beta2
+1.06 (not public) -volume changer beta
+1.05 (not public) -lag-O-meter toggler re-maked (easy way)
+1.04 (not public) -speech at reload maded selectable   -reload bind moved to (vec_speech.cfg)   (all speech binds at vec_speech.cfg)
+1.03 (not public) -added some (extra) setting
+1.02 -quick demo recorder  -speech at sarting and stopping record -quick fps display toggler -quick lag-O-meter toggler -speech binds moved to vec_speech.cfg  -binds loader (vec_speech.cfg)
+1.01b (not public) -easy demo recorder (start/stop toggler) beta -easy fps display toggler -separeted variable speech binds from Main  Vec! Random Speech binds 1.00 vec_speech.cfg
+1.01 -first public release -net settings -variable binds -simple binds -speech at reloading  -speech to team -refresher (.cfg reloader) -name animator added -quick Quit button
+---------------------------------------
+1.01b (not public) -variable binds beta
+1.00 (not public) -net settings -simple binds -speech at reloading -speech to team -config file loader binds
+(not public versions are test versions)
+///////////////////////////////////////
+
+Vec! Random Speech binds (vec_speech.cfg)
+1.13
+ -reload say bind changed to variable
+ -added extra help text's in file
+
+1.12 -script maded user friendly to modify
+1.11 -speech at reload maded selectable
+1.10 -all simple speech binds added -reload bind added  -all speech binds in vec_speech.cfg
+1.03 (not public) -reload bind added
+1.02 (not public) -simple binds added
+1.01 -cleared bind scripts
+1.00 -5 variable speech bind
+
+// cod2-cfg.tk //
